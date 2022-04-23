@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>To-do</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!--===============================================================================================-->
+    <link
+      rel="icon"
+      type="image/png"
+      href="/Login_v15/images/icons/favicon.ico"
+    />
+    <!--===============================================================================================-->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/Login_v15/fonts/font-awesome-4.7.0/css/font-awesome.min.css"
+    />
+
+    <link rel="stylesheet" type="text/css" href="css/util.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" href="css/todo.css" />
+
+    <!--===============================================================================================-->
+    <script src="Javascript/todo.js" defer></script>
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <section class="header">
+      <div class="nav-links sticky-top">
+        <nav class="navbar navbar-expand-lg" style="background-color: #2c666e">
+          <div class="container-fluid">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" href="">To - do list</a>
+              </li>
+              <li class="nav-item">
+                <a id="myBtn" class="nav-link" href="">Log out</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+      <div id="myModal" class="modal">
+        <div class="modal-content">
+          <div class="logoutClose">
+            <h2>Confirmation</h2>
+            <span class="close">&times;</span>
+          </div>
+          <p>Are you sure you want to log-out?</p>
+          <div class="btn">
+            <a id="exit">Close</a>
+            <a id="confirm">Confirm</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- NAVBAR END -->
+    <div class="container-content">
+      <h3>My To do List</h3>
+    </div>
+  </body>
+</html>
